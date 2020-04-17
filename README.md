@@ -7,6 +7,8 @@ Note:
 1. Windows Only, starting from WindozeXP/Sorbor 2003 (Not tested yet on ReactOS) or later
 2. For Educational Purpose Only, don't try to use this as cyberweapon, cybercrime, or just try to be a childrenfucking dickhead
 3. Licensed using GNU-GPL3
+4. ALWAYS READ THE COMMENTS BEFORE SLAMMING YOUR OWN CODE!1!1
+5. If you want to test this malware, USE VIRTUAL PC WITH PROPRIETARY DISK FORMAT (NOT VHD NOR IMG)! If you point your finger to me for fucking your device, i'll cumshot to you
 
 How to clone and build:
 
