@@ -14,13 +14,13 @@ How to clone and build:
 2. Extract the zip, make sure you remember the path
 3. Make sure you have a properly set compiler (MinGW or Visual Studio) System PATH, and make sure you set the System Classpath to "." (without quotation mark), so the compiler accessible everywhere (GooLag/Dick-Dick-Go is your friend, however, it may automagically set if you install Visual Studio)
 4. You need to do some fine tuning, such as:
-a. Set webpages/IP addresses that you want to ping
-b. Insert some code [Keylogging with Email, selective file encryption (only encrypt file with determined file extensions, read comment before you slam your code) in ALL drive, or any function that you wish to get in)
-c. If you're using Visual Studio (2017 or later], remove:
-#define WIN32_WINNT 0x0502
+<br>a. Set webpages/IP addresses that you want to ping</br>
+b. Insert some code [Keylogging with Email, selective file encryption (only encrypt file with determined file extensions, read comment before you slam your code) in ALL drive, or any function that you wish to get in]</br>
+c. If you're using Visual Studio (2017 or later), remove:</br>
+#define WIN32_WINNT 0x0502</br>
 and replace with:
-#define _WIN32_WINNT 0x0502
+#define _WIN32_WINNT 0x0502</br>
 
 5. If you are using MinGW, build using these commands:
-g++ -pthread --std=c++17 -mwindows -Wno-unknown-pragmas -Wall -o "%e" "%f"
+<br>g++ -pthread --std=c++17 -mwindows -Wno-unknown-pragmas -Wall -o "%e" "%f"</br>
 Where %e is the executable file name (without .exe extensions), and %f is the covid19.cpp file location
