@@ -20,9 +20,17 @@ How to clone and build:
 <br>b. Insert some code [Keylogging with Email, selective file encryption (only encrypt file with determined file extensions, read comment before you slam your code) in ALL drive, spread malware automatically with AutoRun in all removable disks, and any function that you wish to get in]</br>
 <br>c. If you're using Visual Studio (2017 or later), remove:</br>
 <br>#define WIN32_WINNT 0x0502</br>
-<br>and replace with:</br>
+<br>and replace with (by removing comment):</br>
 <br>#define _WIN32_WINNT 0x0502</br>
+<br>d. If you're using MinGW, remove:</br>
+<br>#define _WIN32_WINNT 0x0502</br>
+<br>Instead, keep this exist:</br>
+<br> #define WIN32_WINNT 0x0502</br>
 
 5. If you are using MinGW, build using these commands:</br>
 <br>g++ -pthread --std=c++17 -mwindows -Wno-unknown-pragmas -Wall -o "%e" "%f"</br>
 <br>Where %e is the executable file name (without .exe extensions), and %f is the covid19.cpp file location</br>
+6. List of Supported and not-supported/untested Compiler(s):
+<br>MinGW (works, tested by me)</br>
+<br>Visual Studio [2017 or later] (works, tested by @IDCPLC on Telegram)</br>
+<br>Other C++ compiler on Windows that aren't mentioned here means they're not tested or may not works
