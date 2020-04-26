@@ -29,7 +29,10 @@ How to clone and build:
 
 5. If you are using MinGW, build using these commands:</br>
 <br>g++ -pthread --std=c++17 -mwindows -Wno-unknown-pragmas -Wall -o "%e" "%f"</br>
-<br>Where %e is the executable file name (without .exe extensions), and %f is the covid19.cpp file location</br>
+<br>Where %e is the executable file name (with .exe extensions), and %f is the covid19.cpp file location</br>
+<br>You don't childrenfucking understand? Let me strip the %e and %f, replace that shits to something that you more understand:</br>
+g++ -pthread --std=c++17 -mwindows -Wno-unknown-pragmas -Wall -o "your-exe-file-name-with-exe-extension" "where-the-fuck-you-place-the-COVID19-source-code"</br>
+
 6. List of Supported and not-supported/untested Compiler(s):
 <br>MinGW (works, tested by me)</br>
 <br>Visual Studio [2017 or later] (works, tested by @IDCPLC on Telegram)</br>
