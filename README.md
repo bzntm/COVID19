@@ -17,7 +17,7 @@ How to clone and build:
 3. Make sure you have a properly set compiler (MinGW or Visual Studio) System PATH, and make sure you set the System Classpath to "." (without quotation mark), so the compiler accessible everywhere (GooLag/Dick-Dick-Go is your friend, however, it may automagically set if you install Visual Studio)
 4. You need to do some fine tuning, such as:
 <br>a. Set webpages/IP addresses that you want to ping</br>
-<br>b. Insert some code [Keylogging with Email, selective file encryption (only encrypt file with determined file extensions, read comment before you slam your code) in ALL drive, spread malware automatically with AutoRun in all removable disks, and any function that you wish to get in]</br>
+<br>b. Insert some code [Keylogging with Email, selective file encryption (only encrypt file with determined file extensions, read comment before you slam your code) in ALL drive, spread malware automatically with AutoRun in all removable disks, MBR/EFI overwriting, and any function that you wish to get in]</br>
 <br>c. If you're using Visual Studio (2017 or later), remove:</br>
 <br>#define WIN32_WINNT 0x0502</br>
 <br>and replace with (by removing comment):</br>
