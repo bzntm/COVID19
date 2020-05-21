@@ -7,6 +7,7 @@
 //MinGW
 //Leurak
 
+#define MBR_SIZE 512
 
 //This software is licensed using GNU-GPL3, so never try to wipe ALL credits mentioned above, and never forget to credit me
 #include<iostream>
